@@ -1,0 +1,6 @@
+Nombre: Juan
+Apellido: Roldan
+Edad: 20
+Nombre: Pablo
+Apellido: Patiño
+Edad: 20

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empleados</title>
+</head>
+<body>
+    <form action="empleados.php" method="post">
+        Ingrese su nombre:
+        <input type="text" name="nombre"><br>
+        Ingrese el Valor de la hora trabajada:
+        <input type="text" name="valorHora"><br>
+        Ingrese las Horas Trabajadas:
+        <input type="text" name="horasTrabajadas"><br>
+        Seleccione a quién desea deducir:
+        <select name="opcion">
+            <option value="infantes">Infantes (7%)</option>
+            <option value="terceraEdad">Tercera edad (12%)</option>
+            <option value="incapacitados">Incapacitados (5%)</option>
+        </select><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
